@@ -18,9 +18,7 @@ hs_err_pid*
 .idea/modules.xml
 .idea/workspace.xml
 .idea/yishiyong.iml
-WebRoot/
 docs/
 logs/
-src/
 yishiyong.iml
 /docs/
