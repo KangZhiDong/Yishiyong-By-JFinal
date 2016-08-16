@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+/*基础信息*/
+.information-con{min-height:100px; overflow:hidden; padding:20px; }
+.information-con h3{font-size:18px; color:#555; text-align:center;}
+.information-con h3 span{font-size:14px; color:#999; margin-left:10px;}
+.profile{width:550px; margin:30px 0 0 160px;}
+.input-div{min-height:30px; margin-top:10px; line-height:28px;}
+.input-div em{width:120px; text-align:right; display:inline-block; float:left; margin-right:10px;}
+.input-div i{padding-left:20px; background:url(../images/userinfo/xing_img.jpg) no-repeat; background-position:5% 50%;}
+.inputtext em{line-height:25px; height:25px;}
+.input-div select,.profile .input-div select option{color:#2C0100; font-size:12px; padding-left:5px;}
+.input-div .input-text{width:150px; height:25px; padding-left:5px; border:1px solid #C5C5BF; border-radius:3px; line-height:25px; color:#404053; font-size:14px;}
+.input-checkbox{width:360px;}
+.input-checkbox label{width:90px; display:inline-block; margin-bottom:10px;}
+.input-div .input-button{padding:0 15px; height:35px; line-height:35px; background:#3f8acd; overflow:hidden; border-radius:5px; font-size:16px; color:#fff; font-weight:bold; cursor:pointer;}
+/*公用*/
+.m-wrap { margin:0 auto; margin-bottom:50px; width:1000px;}
+.c-red { color:#f91b1b;}
+.c-blue { color:#00a6ed;}
+.c-yellow { color:#ea6900;}
+.c-green { color:#4ab638;}
+.mt50 { margin-top:50px;}
+/*左侧导航样式*/
+
+.userpic-box { margin:15px 0; padding-left:150px; clear:both;}
+.userpic-box .picleft-box { float:left;}
+.userpic-box .picright-box{ float:left; padding-top:33px; padding-left:20px;}
+.userpic-box .pic-btn { display:inline-block; margin:0 5px; padding:0 18px; line-height:28px; background:#f5f5f5; border:1px solid #d1d1d1; font-size:14px; color:#1b1b1b; border-radius:5px; text-decoration:none;}
+.userpic-box .mt15 { margin-top:15px;}
+
+/*右侧样式*/
+.mright { float:left; margin-left:6px; width:842px;}
+.business-right-comm {border: 1px solid #E0E0E0;background-color: #fff;position: relative;}
+.business-fund{padding: 10px 20px 65px;}
+.business-fund h3{ height:40px; font-size:22px; color:#555; border-bottom:2px solid #E8E8E8; line-height:40px;padding-bottom: 8px;}
+.business-fund h4{color: #555555;font-size: 22px;height: 40px;line-height: 40px;}
+.business-info-list .Process { float:none;margin-left:40px;}
+.business-right{ width:840px; float:right;}
+
+.itembtnp{height: 39px;overflow: hidden;}
+.itembtnp a.itembtn{display:inline-block;width: 73px;height: 39px;line-height: 200px;overflow: hidden;background: url(../images/btns.gif) no-repeat;background-position: -304px -692px;vertical-align: middle;}
+.itembtnp a.itembtn:hover{background-position: -304px -744px;}
+.itembtn-com{background-position: -36px 0px;}
+.itembtn-com:hover{background-position: -36px 0px;}
+.inputBox .inputBoxhd{border-bottom:  1px solid #e5e5e5;padding-left: 6px;}
+.inputBox .inputBoxhd span{font: 400 16px/50px Microsoft YaHei;color: #ff6f00;}
+.inputBox .inputBoxhd a{float: right;font: 400 14px/50px Microsoft YaHei;color: #1f9cd8;padding-right: 10px;}
+.inputBox .inputMain{padding-top:40px;}
+
+/*发送*/
+.sendEmail{padding:5px 18px 40px;font-size: 14px;}
+.sendEmail p.timeTips{text-align: center;color: #adadc0;padding-top: 10px;margin-bottom: 40px;}
+.sendEmail .sendEmailtxt{padding-left: 205px;color: #666;}
+.sendEmailtxt p{line-height: 22px;height: 22px;overflow: hidden;}
+.sendEmailtxt p em{float: left;}
+.sendEmailtxt p span.ok{float: left;}
+
+/*账户信息*/
+.business-info{padding:15px 15px 40px;}
+.business-info-hd{height: 40px;padding-bottom: 10px;border-bottom: 2px solid #e7e7e7;font: 400 24px/40px Microsoft YaHei;}
+.business-info-bd{padding: 0 8px;}
+.business-info-list{}
+.business-info-list .business-info-list-hd{height: 30px;font-size:14px;line-height: 30px;padding:10px 0px;border-bottom: 1px solid #e7e7e7;}
+.business-info-list .business-info-list-hd-lx{padding-bottom: 0;border-bottom: 0 none}
+.business-info-list .business-info-list-hd span{font-size:16px;float: left;width: 160px;}
+.business-info-list .business-info-list-hd b{float: left;font-style:normal;font-weight:normal;}
+.business-info-list .business-info-list-hd b.set{color: #ff2700;}
+.business-info-list .business-info-list-hd a{color: #1f9cd8;}
+.business-info-list .business-info-list-bd{background: #FFF;padding:20px 0;}
+.business-info-list-small{border-bottom: 1px solid #e7e7e7;padding-bottom: 10px;}
+.business-info-list-small-list{}
+.business-info-list-small-list .business-info-list-small-list-hd{height: 34px;font: 400 14px/34px Microsoft YaHei;}
+.business-info-list-small-list .business-info-list-small-list-hd span{float: left;padding-left: 24px;width: 100px;}
+.business-info-list-small-list .business-info-list-small-list-hd b{float: left;font-style:normal;font-weight:normal;}
+.business-info-list-small-list .business-info-list-small-list-hd a{float: right;color: #1f9cd8;}
+.business-info-list-small-list .business-info-list-small-list-bd{border-top: 1px solid #e7e7e7;margin-top:10px;padding-top: 20px;padding-bottom: 30px;}
+.user-info-form .item{position: relative;margin: 0 0 20px;}
+.user-info-form p.item{padding-left: 240px;}
+.user-info-form .item .tit{float: left;width: 230px;text-align: right;font-size: 14px;color: #000;}
+.user-info-form .setTips{text-align:center;padding-bottom:20px;font-size: 14px;color: #666;}
+
+.business-info-bd .checkemall{font-size: 14px;color: #333;text-align: center;}
+.business-info-bd .send-email{height: 39px;overflow: hidden;text-align: center;margin:16px 0 30px;}
+.business-info-bd .send-email .send-email-btn{display:block;width: 125px;height: 39px;background: url(../images/btns.gif) no-repeat -595px -579px;overflow: hidden;line-height: 200px;margin: 0 auto;}
+.business-info-bd .timeTips{text-align: center;color: #adadc0;padding-top: 10px;margin-bottom: 40px;font-size: 14px;}
+.business-info-bd .timeTips em{color: #ff2600;}
+.business-info-bd .sendEmailtxt{padding-left: 90px;color: #666;font-size: 14px;}
+.business-info-bd .sendEmailtxt p{line-height: 22px;}
+.business-info-bd .setemailok{font-size: 16px;height: 40px;line-height: 40px;padding: 40px 0;text-align: center;}
+.business-info-bd .setemailok em{color: #ff2600;}
+.addressbox .item{height: 40px;}
+.addressbox .item span.error{display: block;margin-left: 0;margin-top: 2px;}
+.addressbox .item .inpbox{padding-left: 0;}
+.w420 .inpbox input.txt{width: 420px;}

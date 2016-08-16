@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+.ok_await { padding:10px 0; margin:10px 0;}
+.ok_await img { border:2px solid #f3f3f3; padding:2px;}
+.cor_green { color:#37c70a; padding-left:18px; background:url(../images/buyer/icon_ture.gif) no-repeat left;}
+.border_line { border-top:1px dashed #ddd!important; padding-top:10px!important; }
+.nopass_box { margin-bottom:5px; padding:10px 15px; border:1px solid #fbe0ac; background:#fffede; width:635px; font-size:14px; line-height:29px;}
+.nopass_box p.line { border-top:1px dashed #ddd; margin-top:10px; padding-top:5px;}
+
+/*--试客晒单分享--*/
+p.good_tit {padding-bottom: 15px;font-size: 14px;border-bottom: 1px dashed #ddd;margin-bottom: 15px;}
+.cc_box1 {}
+.cc_box1 p {font-size:14px; color:#333; line-height:30px;}
+.f_mtb10 { margin:10px 0;}
+i.play_small { margin-top:3px; margin-right:3px; width:16px; height:16px; display:inline-block; vertical-align:text-top; background:url(../images/plat_small.png) no-repeat;}
+i.play_taobao { background-position:-216px 0;}
+i.play_tmall { background-position:-43px 0;}
+
+
+.cor_yel { color:#ff6c2b;}
+
+p.bbs_msg { padding-left: 65px;line-height: 35px;font-size: 14px;}
+.ml70 { margin-left:70px;}
+.pt10 { padding-top:10px;} 
+.pl40 { padding-left:40px;}
+
+.g-wrap { margin:0 auto; width:1000px; background:#fff;}
+.g-wrap a { text-decoration:none;}
+.g-box { clear:both; overflow:hidden; width:998px; border:1px solid #e0e0e0; border-radius:5px;}
+.c-red { color:#f91b1b;}
+.c-blue { color:#00a6ed;}
+.c-green { color:#1ac616;}
+.c-yellow { color:#f46300!important;}
+input.w480 { width:480px;}
+.g-item { clear:both; overflow:hidden; position:relative; margin-bottom:28px;}
+.bbs-like { padding:18px 30px;}
+.bbs-like h2 { margin-bottom:30px; padding-bottom:20px;height:30px; border-bottom:1px solid #e7e7e7; font-size:28px; font-weight:bold; line-height:30px; color:#c53e43;}
+.bbs-like h2 span { padding-left:16px; font-size:14px; color:#555; font-weight:normal;}
+.bbs-like .bd-cc { overflow:hidden;}
+/*左侧*/
+.bd-cc-l { float:left; width:220px; height:100%; margin-bottom:-3000px; padding-bottom:3000px; padding-right:18px; border-right:1px solid #f06600;}
+.bd-cc-l h3 { font-size:18px; color:#555;}
+.bd-cc-l ul li { position:relative; height:50px; border-bottom:1px solid #eff1f0; color:#2e2e2e; line-height:50px; font-size:14px; color:#000;}
+.bd-cc-l ul li input {vertical-align: middle;margin-right: 5px;}
+.bd-cc-l ul li span { float:right; font-size:12px; color:#999;}
+.bd-cc-l ul li a { color:#2e2e2e;}
+.bd-cc-l ul li.active b { display:block;}
+.bd-cc-l ul li b { display:none; position:absolute; z-index:10; top:21px; left:234px; width:5px; height:8px; background:url(../images/good_icon.gif) no-repeat;}
+/*底部*/
+.bbs-like .bd-msg { margin-top:80px; padding:10px 0 30px 0; border-top:1px solid #e7e7e7;}
+.bbs-like .bd-msg h3{ font-size:18px; color:#000; line-height:39px;}
+.bbs-like .bd-msg p{ font-size:14px; color:#000; line-height:28px;}
+.btn-return-box { text-align:center; margin-top:20px;}
+a.return { line-height:20px; color:#3ba4db; font-size:20px;}
+/*右侧*/
+.bd-cc-r { float:left; margin-left:29px; width:670px; padding-bottom:3000px; margin-bottom:-3000px;}
+.bbs-r { margin-bottom:10px;}
+.bbs-r h3 { padding-bottom:20px; font-size:16px; color:#000;}
+.bbs-shop { padding-bottom:17px;}
+.bbs-shop-l{ float:left;}
+.bbs-shop-r{ float:left; padding-left:8px;}
+.bbs-shop-r ul li { line-height:22px; color:#545454; font-size:13px;}
+.bbs-list { padding: 15px 0; padding-left:40px; font-size:14px; color:#555; border-top:1px dashed #ddd;}
+.bbs-list p { line-height:30px;}
+.bbs-list p.p1 { padding-left:70px; color:#999;}
+.bbs-list input { padding-left:5px; border:1px solid #c5c5c5; border-radius:3px; line-height:30px; height:30px;}
+.list-inp-box { margin-top:8px; padding:5px 0;}
+.bbs-btn-box { text-align:right; margin-bottom:20px; padding:30px 0; border-bottom:1px solid #ddd;} 
+a.btn { display:inline-block; padding:0 15px; border:1px solid #f49d00; border-radius:5px; color:#ea5a13; font-size:14px; line-height:31px; background:#fff7db;}
+
+/*
+*	试客收货页面css样式
+*/
+.copy-cc-box { border-top:1px dashed #ddd;}
+.copy-cc-box p.tit{ line-height:45px; font-size:14px;}
+.copy-box{ padding:8px 0 10px 12px;font-size:14px; color:#333; line-height:24px;}
+.copykey-box .copykey-box-l { float:left; width:56px;}
+.copykey-box .copykey-box-r { float:left;}
+.file-box { margin:25px 0 10px 0; font-size:14px; color:#000;}

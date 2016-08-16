@@ -1,0 +1,234 @@
+@charset "utf-8";
+
+/*商家发布任务-LHN-20150305*/
+
+.s-wrap { margin:0 auto; margin-bottom:20px; width:998px; border:1px solid #e0e0e0; overflow:hidden; background:#fff; font-size:14px;}
+.s-wrap-mt7 { margin-top:7px;}
+.scontent { clear:both;}
+.step { padding:0 40px 0 28px;}
+.scontent .w55 { margin:0 6px 0 -25px; width:55px;}
+.scontent .w56 { margin:0 6px ; width:56px;}
+.scontent .w60m35 { margin-left:-35px; width:60px;}
+.scontent .w65 { margin:0 5px; width:65px;}
+.scontent .w135 {margin:0 6px; width:135px;}
+.scontent input.text {border: 1px solid #c5c5c5;border-radius: 2px;height: 24px;padding: 3px 6px;}
+.pb15 { padding-bottom:15px;}
+.c_blue { color:#00a1fe;}
+p.titmsg { margin:0 20px 25px 30px; padding-bottom: 20px;border-bottom: 1px dashed #ddd; color:#999;}
+
+.w30{width:30px!important;}
+
+/*体验商家提示信息*/
+.smsgend { clear:both; padding:50px 0 100px 0;}
+.smsgend p { color:#555;font-size:18px; line-height:50px; text-align:center;}
+.smsgend p span { padding:0 3px; color:#ee0000;}
+.smsgend p a{ font-size:23px; text-decoration:none; color:#00b2dc;}
+.smsg { clear:both; border-bottom:1px solid #eee;}
+.smsg p { color:#555; font-size:14px; line-height:84px; text-align:center;}
+.smsg p span { padding:0 3px; color:#ee0000; font-weight:600;}
+.stit { padding-left:32px; height:108px; border-bottom:1px solid #eff1f0;}
+.stit h2 { float:left; padding:36px 60px 40px 0; width:118px;}
+/*导航*/
+.stit .Process { float:left; width:680px; padding-top:60px;}
+.Process{width: 900px;margin:0px auto;padding: 40px 50px 12px;overflow: hidden;position: relative;}
+.Process ul{position: relative;zoom:1;height: 10px;line-height: 10px;}
+.Process ul li{float: left;background: url(../images/Processdis.png) repeat-x;height: 10px;position: relative;}
+.Process ul li.Processlast{position: absolute;left: 100%;background: none;top: 0;}
+.Process ul li em{background: url(../images/Process.png) no-repeat -85px 0;width: 34px;height: 34px;font-size: 14px;line-height: 34px;display: block;position: absolute;left: -17px;top:-12px;text-align: center;}
+.Process ul li span{position: absolute;left: -50%;height: 40px;font-size: 14px;line-height: 40px;top:-46px;text-align: center;width: 100%;display: block;overflow: hidden;}
+.Process ul li.cur{background: url(../images/Processpass.png) repeat-x}
+.Process ul li em.Processyes{color: #fff;background-position: 0px 0px;}
+.Process ul li em.Processing{color: #fff;background-position: -36px 0px;}
+.Process ul li strong{color: #999;position: absolute;left: 0;top:10px;height: 24px;line-height: 24px;width: 100%;text-align: center;}
+.Process ul li bottoms,.Process ul li b{color: #999;position: absolute;left: -50px;top:24px;height: 24px;line-height: 24px;width: 100%; font-style:normal; font-weight:normal;}
+.Process ul li i{display: none;width: 13px;height: 7px;position: absolute;top: 50px;left: 50%;margin-left: -7px;background: url(../images/makes-task/makes-task-angle.png) no-repeat -18px -3px ;}
+.Process ul li em.Processing i{display: block;}
+.unProcess{padding: 12px 50px 40px;}
+.unProcess ul li span{top:auto;bottom: -46px;}
+/*任务标题*/
+.stitle {padding:0 40px 0 29px; height:80px; line-height:80px;}
+.stitle h3 { float:left; font-size:18px; font-weight:bold; color:#555;}
+.stitle .tit-choose { float:right; font-size:14px;}
+.stitle .tit-choose span { padding: 0 8px; color:#ef5a1f;}
+.s-wrap p.textmsg { margin:0 29px; padding-bottom:20px; font-size:14px; color:#bbb; border-bottom:1px dashed #ddd;}
+/*跳转按钮*/
+.sbtn-box { padding:36px 0; text-align:center; color:#999;}
+.sbtn-box a.s-prev { display:inline-block; padding-left:28px; margin-right:40px; font-size:22px; height:60px; line-height:60px; cursor:pointer; background:url(../images/a-prev.gif) no-repeat left center; color:#f06600; text-decoration:none;}
+.sbtn-box a.s-next { display:inline-block; padding-right:28px; margin-right:15px; font-size:22px; height:60px; line-height:60px; cursor:pointer; background:url(../images/a-next.gif) no-repeat right center; color:#f06600; text-decoration:none;}
+.sbtn-box .s-next.disabled { color:#999;background:url(../images/a-next1.gif) no-repeat right center;}
+
+/*stask1*/
+.stask-bd { clear:both;}
+.stask-bd h3 { padding-left:29px; font-size:18px; line-height:78px; color:#555;}
+.stask-bd .stask-bd-tit { padding-left:29px; height:34px; line-height:34px;}
+.stask-bd .stask-bd-tit span.bdtit1 { display:inline-block; font-size:16px; color:#555; width:204px;}
+.stask-bd .stask-bd-tit span.bdtit2 { display:inline-block; font-size:16px; color:#555; width:213px;}
+.stask-bd .stask-bd-tit span.bdtit3 { display:inline-block; font-size:16px; color:#555;}
+.stask-bd .stask-bd-cc { overflow:hidden; margin-top:10px;}
+.stask-bd .stask-bd-cc .sl{ float:left;padding:12px 29px 2080px 29px; margin-bottom:-2000px; height:100%; width:170px; border-right:1px solid #e1e1e1;}
+.stask-bd .stask-bd-cc .sl ul li { position:relative; border-bottom:1px solid #eff1f0; height:50px; line-height:48px;}
+.stask-bd .stask-bd-cc .sl ul li i { display:none; position:absolute; background:url(../images/s-taskcur-icon.png) no-repeat; top:21px; right:-30px; width:5px; height:8px;}
+.stask-bd .stask-bd-cc .sl ul li.cur i { display:block;}
+.stask-bd .stask-bd-cc .sl ul li em {float:right;color:#999;vertical-align:middle;height:18px;line-height:18px;margin-top: 15px; font-size:12px; font-weight:normal;}
+.stask-bd .stask-bd-cc .sl ul li em.num { color:#fb672a;}
+.stask-bd .stask-bd-cc .sl ul li b { display:inline-block; margin-left:5px; width:132px; height:48px; background:url(../images/release-plat.png) no-repeat;vertical-align: middle;}
+.stask-bd .stask-bd-cc .sl ul li b.taobao { background-position:0 -0;}
+.stask-bd .stask-bd-cc .sl ul li b.tmall { background-position:0 -50px;}
+.stask-bd .stask-bd-cc .sl ul li b.jd { background-position:0 -100px;}
+.stask-bd .stask-bd-cc .sl ul li lable { display:inline; font-size:12px;}
+.stask-bd .stask-bd-cc .sc{ float:left;padding:12px 29px 2080px 25px; margin-bottom:-2000px; height:100%; width:170px; border-right:1px solid #e1e1e1;}
+.stask-bd .stask-bd-cc .sc ul li { position:relative; border-bottom:1px solid #eff1f0; height:50px; line-height:48px;}
+.stask-bd .stask-bd-cc .sc ul li i { display:none; position:absolute; background:url(../images/s-taskcur-icon.png) no-repeat; top:21px; right:-30px; width:5px; height:8px;}
+.stask-bd .stask-bd-cc .sc ul li.cur i { display:block;}
+.stask-bd .stask-bd-cc .sc ul li lable { display:inline; font-size:12px;}
+.stask-bd .stask-bd-cc .sc ul li span { margin-left:10px; color:#a7a7a7;}
+.stask-bd .stask-bd-cc .sc ul li.cur span { color:#333; font-weight:bold;}
+.stask-bd .stask-bd-cc .sc .nobinding {font-size:14px; line-height:25px; text-align:center; color:#999; padding-top:20px;}
+.stask-bd .stask-bd-cc .sc .nobinding a {color:#1F9CD8; font-size:16px; line-height:30px;}
+.stask-bd .stask-bd-cc .sr{ float:left;padding:12px 0 2080px 20px; margin-bottom:-2000px; height:100%; width:500px;}
+.stask-bd .stask-bd-cc .sr ul li { position:relative; padding-top:5px; border-bottom:1px solid #eff1f0; height:77px; line-height:30px;}
+.stask-bd .stask-bd-cc .sr ul li lable { display:inline; font-size:12px;}
+.stask-bd .stask-bd-cc .sr ul li span { margin-left:10px;font-weight:bold; font-size:18px; color:#a7a7a7;}
+.stask-bd .stask-bd-cc .sr ul li.cur span { color:#333; font-weight:bold; font-size:18px;}
+.stask-bd .stask-bd-cc .sr ul li p { padding-left:23px; font-size:14px; color:#a7a7a7;}
+.stask-bd .stask-bd-cc .sr ul li.cur p { color:#333;}
+
+/*stask4*/
+.step4 { padding:0 40px 0 28px;}
+.step4 h3 { padding-bottom:22px; font-size:16px; color:#555;}
+.step4 h3 span { font-size:14px;}
+.step4 h3 a { color:#0e88f0; font-size:14px;}
+.step4 h3 em { color:#f51111; font-size:14px;}
+.step4 p.txt1 { padding-left:17px; line-height:40px; color:#555; margin:20px 0;}
+.step4 p.txt1 span { color:#f30606;}
+.step4 p.txt2 { margin-top:-5px; padding-left:17px; color:#555;}
+.step4 p.txt2 span { color:#f30606;}
+.step4 .taskarea { padding-left:17px;}
+.step4 .taskarea label { margin-right:40px;}
+.step4 .area-k { margin:20px 0 30px 17px; padding:0 0 23px 23px; border:1px solid #f30606;}
+.step4 .area-k p { line-height:35px; font-size:14px; color:#555;}
+.step4 .area-k p span { color:#e00;}
+.step4 .area-k p.p1 { line-height:54px; border-bottom:1px dashed #ddd;}
+.step4 .uu { float:left; margin-left:17px; margin-bottom:30px; padding-bottom:20px; width:250px;}
+.step4 .uu li { line-height:49px; cursor:pointer;}
+.step4 .uu li.action { position:relative; border:1px solid #f06600;}
+.step4 .uu li.action i { position:absolute; right:-2px;top:0;display:block; width:2px; height:49px; background:url(../images/new/stask4-icon.gif) no-repeat;}
+
+.step4 .uu li span { padding-left:5px; color:#f30606;}
+.step4 .uu li em { width:125px; display:inline-block;}
+.step4 .uukey { float:left; padding-left:17px; margin-bottom:30px; padding-bottom:20px; border:1px solid #f06600;width:620px;min-height:360px;}
+.step4 .uukey li { display:block; line-height:49px;}
+.step4 .uukey i.play_small { margin-top:3px; margin-right:3px; width:16px; height:16px; display:inline-block; vertical-align:text-top; background:url(../images/plat_small.png) no-repeat;}
+.step4 .uukey i.play_taobao { background-position:-216px 0;}
+.step4 .uukey i.play_tmall { background-position:-43px 0;}
+.step4 .seekbox1 { padding:15px 0 0 15px;}
+.step4 .seekbox2 { padding:15px 0 0 15px;}
+.step4 .seekbox2 p { line-height:41px;}
+.step4 .uukey p.p1 { line-height:60px; margin-top:20px; margin-right:20px; font-size:14px; border-top:1px dashed #ddd;}
+.step4 .uukey p.p2 { line-height:60px; margin-right:20px; margin-bottom:8px; font-size:14px; border-bottom:1px dashed #ddd;}
+.step4 .uukey a.btn { background:#f7a400;display:inline-block;height:33px;line-height:33px;padding:0 22px;border:1px solid #e87d00;font-size:16px;color:#fff;border-radius:5px; text-decoration:none;}
+.step4 .collection-num label { margin-right:30px;}
+
+.moneybox { clear:both; padding:0 40px 45px 29px;}
+.moneybox .m-tit { font-size:18px; color:#000; line-height:62px;}
+.moneybox .moneycc {height:58px; line-height:58px; padding-left:15px; background:#fbfceb; color:#000; font-size:14px; border-bottom:1px solid #ededed;}
+.moneybox .moneycc em { padding-left:10px; color:#ec0000;}
+.moneybox .moneycc span { padding-left:8px;color:#999;}
+.moneybox .moneycc strong { float:right; padding-right:25px; font-size:16px;}
+
+/*stask5*/
+.step5 { padding:0 40px 0 28px;}
+.step5 h3 { padding-left:24px; padding-bottom:22px; font-size:16px; color:#ef5a1f; background:url(../images/step-5-icon.gif) no-repeat 7px 6px;}
+.step5 h3 span { padding-left:12px; color:#606060; font-size:14px;}
+.step5 h3 a { color:#1196eb;font-size:14px;}
+.step5 .st5-box1 { margin-left:30px;}
+.step5 .st5-box1 p { font-size:14px; color:#555;}
+.step5 .st5-box1 p.box1-p1 em { padding:0 10px; font-size:15px;}
+.step5 .st5-box1 p.box1-p1 i { font-size:13px; color:#888;}
+.step5 .st5-box1 p.box1-p2 { padding:0 0 25px 23px; line-height:45px;}
+.step5 .st5-box1 p.box1-p2 em { color:#f40000;}
+.step5 .st5-box1 p.box1-p2 span { color:#f40000;}
+.step5 .st5-box2 { margin-left:30px;}
+.step5 .st5-box2 .box2-cc { margin-bottom:18px; border-bottom:1px dashed #ddd;}
+.step5 .st5-box2 .box2-cc p { font-size:14px; color:#555;}
+.step5 .st5-box2 .box2-cc p.box2-p1 em{ font-size:15px;}
+.step5 .st5-box2 .box2-cc p.box2-p1 i{ padding-left:12px; font-size:13px; color:#888;}
+.step5 .st5-box2 .box2-cc p.box2-p1 strong{ float:right;}
+.step5 .st5-box2 .box2-cc p.box2-p2 { padding-left:17px;}
+.step5 .st5-box2 .box2-cc p.box2-p2 label { padding-right:40px; height:60px; line-height:60px;}
+.step5 .st5-box2 .box2-cc p.box2-p2 span{ color:#f40000;}
+.step5 .st5-box3 { margin-left:30px;}
+.step5 .st5-box3 p.box3-p1 { padding-bottom:30px; line-height:20px;}
+.step5 .st5-box3 p.box3-p1 span{ color:#f40000;}
+.step5 .st5-box3 p.box3-p1 em { font-size:15px;}
+.step5 .st5-box3 p.box3-p1 i { padding-left:12px; font-size:13px; color:#888;}
+.step5 .st5-box4 { margin-left:30px;}
+.step5 .st5-box4 .box4-cc { margin-bottom:18px; border-bottom:1px dashed #ddd;}
+.step5 .st5-box4 .box4-cc p { font-size:14px; color:#555;}
+.step5 .st5-box4 .box4-cc p.box4-p1 em{font-size:15px;}
+.step5 .st5-box4 .box4-cc p.box4-p1 i { padding-left:10px; font-size:14px; color:#888;}
+.step5 .st5-box4 .box4-cc p.box4-p2 { padding-top:10px; padding-left:17px; line-height:50px;}
+.step5 .st5-box4 .box4-cc p.box4-p2 em { padding:0 15px;}
+.step5 .st5-box4 .box4-cc p.box4-p2 span { color:#f40000;}
+.step5 .st5-box4 .box4-cc p.box4-p3 { padding-left:17px; line-height:60px;}
+.step5 .st5-box4 .box4-cc p.box4-p3 a { padding-left:15px; color:#1196eb;}
+.step5 .st5-box4 .box4-cc p.box4-p4 { padding-top:10px; padding-left:17px; line-height:50px;}
+.step5 .st5-box4 .box4-cc p.box4-p4 select { margin:0 10px; width:66px;}
+.step5 .st5-box4 .box4-cc p.box4-p4 span { color:#f20000;}
+.step5 .st5-box4 .box4-cc p.box4-p5 {padding:5px 0 15px 17px; line-height:25px; color:#888; font-size:13px;}
+.step5 .st5-box4 .box4-cc p.box4-p6 { padding-left:17px; color:#333;}
+.step5 .st5-box4 .box4-cc p.box4-p6 label { padding-right:40px; height:60px; line-height:60px;}
+.step5 .st5-box4 .box4-cc p.box4-p6 span { color:#f40000;}
+.step5 .st5-box4 .box4-cc p.box4-p7 {padding:5px 0 15px 17px; line-height:25px; color:#333; font-size:14px;}
+.step5 .st5-box4 .box4-cc p.box4-p7 span { color:#f40000;}
+.step5 .st5-box5 { margin-left:30px;}
+.step5 .st5-box5 p.box5-p1 {padding-bottom:20px; line-height:20px;}
+.step5 .st5-box5 p.box5-p1 span{ color:#f40000;}
+.step5 .st5-box5 p.box5-p1 em { font-size:15px;}
+.step5 .st5-box5 p.box5-p1 i { padding-left:12px; font-size:13px; color:#888;}
+.step5 .st5-box5 .box5-ul { padding-left:24px; margin-bottom:20px;}
+.step5 .st5-box5 .box5-ul ul li { line-height:45px;}
+.step5 .st5-box5 .box5-ul span { display:block;padding:10px 0 25px 65px; border-bottom: 1px dashed #ddd; margin-bottom: 12px;}
+.step5 .st5-box5 .box5-ul a { color:#0f99dc;}
+.step5 .st5-box5 .box5-ul i { padding-left:15px; color:#999;}
+.step5 .st5-box5 p.box5-p2 { padding:0 0 15px 24px; line-height:25px; color:#999;}
+.step5 .st5-box5 p.box5-p2 span { color:#f40000;}
+.step5 .st5-box5 p.box5-p3 { padding-left:17px; color:#333;}
+.step5 .st5-box5 p.box5-p3 label { padding-right:40px; height:50px; line-height:50px;}
+.step5 .st5-box5 p.box5-p4 { padding-left:17px; padding-bottom:25px; color:#333; font-size:14px; line-height:29px; border-bottom:1px solid #ddd;}
+.step5 .st5-box5 p.box5-p4 span { color:#f00;}
+.step5 h4 { line-height:55px; font-size:18px; color:#555;}
+.step5 .cost .cost-tit { height:30px; line-height:30px; padding-left:15px; width:915px; background:#f9f9f9;}
+.step5 .cost table th { height:38px; text-align:center; font-size:16px; color:#666; line-height:38px; font-weight:bold;}
+.step5 .cost table td { text-align:center;font-size:14px;  color:#666; line-height:45px;}
+.step5 .cost ul li { text-align:left; padding-left:100px;}
+.step5 .cost b { color:#f00; font-weight:bold;}
+.step5 .costtxt { text-align:right; line-height:70px; color:#555; font-size:16px;}
+.step5 .costtxt span { padding-left:22px;}
+.step5 .costtxt span i { color:#f00;}
+
+/*stask6*/
+.title6 { font-size:16px; color:#555; font-weight:bold;}
+.payres { margin:16px 0; padding:0 10px;line-height:55px; font-size:14px; background:#f7fceb;}
+.payres span { float:right; padding-left:20px;}
+.payres span strong { color:#f60000;}
+.paybox { padding:0 10px; height:56px; line-height:56px; background:#fffeee; font-size:14px; border-bottom:1px dashed #e5dab7;}
+.paybox em { color:#f60000;}
+.paybox span { float:right; display:none;}
+.paybox.bank1 span { float:right; display:block;}
+.paybox.morebank { display:none;}
+.paybox strong { color:#f60000;}
+.paybox a { padding-left:18px; color:#17baf5;}
+.paybox a:hover { color:#666;}
+.paybox i {  width:0;height:0;border-width:5px 5px 0;border-style:solid; border-color:#17baf5 transparent transparent;position:relative; top:13px; left:5px;}
+.paybox1 { padding:0 10px; height:56px; line-height:56px; background:#fffeee; font-size:14px; border-bottom:1px dashed #e5dab7;}
+.paybox1 em { color:#f60000;}
+.paybox1 span { float:right; display:none;}
+.paybox1.bank1 span { float:right; display:block;}
+.paybox1.bank1 strong { color:#f60000;}
+
+/*stask7*/
+.scontent .succeed { padding:100px 0;}
+.scontent .succeed h3 { font-size:24px; text-align:center; color:#555;}
+.scontent .succeed p { text-align:center; font-size:14px; font-weight:bold; color:#555; line-height:50px;}
+.scontent .succeed p a { padding-left:15px; color:#17baf5;}

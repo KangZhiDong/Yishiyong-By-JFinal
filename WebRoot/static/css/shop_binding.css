@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*商家绑定店铺*/
+.g-wrap { margin:0 auto; width:1000px; background:#fff;}
+.g-wrap a { text-decoration:none;}
+.g-box { clear:both; overflow:hidden; width:998px; border:1px solid #e0e0e0; border-radius:5px;}
+.c-red { color:#f91b1b;}
+.c-blue { color:#00a6ed;}
+.c-green { color:#1ac616;}
+.c-yellow { color:#f46300!important;}
+/*bingding页面样式*/
+.g-item { clear:both; overflow:hidden; position:relative; margin-bottom:28px;}
+.g-item .inpox {display: inline-block;position: relative;zoom: 1;height: 30px;border: 1px solid #ccc;padding-left: 32px;border-radius: 2px;vertical-align: middle;}
+.binding { padding:18px 30px;}
+.binding h2 { margin-bottom:30px; padding-bottom:20px; height:28px; border-bottom:1px solid #e7e7e7; background:url(../images/img-business/shop-binding-tit.png) no-repeat 0 0; font-size:0; line-height:500px; text-indent:-5000px;}
+.binding .bd-cc { overflow:hidden; padding-bottom:100px;}
+/*左侧选项卡*/
+.bd-cc-l { float:left; width:135px; height:100%; margin-bottom:-3000px; padding-bottom:3000px; padding-right:18px; border-right:1px solid #f06600; font-size:14px;}
+.bd-cc-l h3 { font-size:18px; color:#555;}
+.bd-cc-l ul li { position:relative; height:50px; border-bottom:1px solid #eff1f0; color:#2e2e2e; line-height:50px;}
+.bd-cc-l ul li input {vertical-align: middle;margin-right: 5px;}
+.bd-cc-l ul li span { float:right; font-size:12px; color:#999;}
+.bd-cc-l ul li a { color:#2e2e2e;}
+.bd-cc-l ul li.active i { display:block;}
+.bd-cc-l ul li i { display:none; position:absolute; z-index:10; top:21px; left:149px; width:5px; height:8px; background:url(../images/b-li-icon.png) no-repeat;}
+/*底部注意事项*/
+.binding .bd-msg { margin-top:80px; padding:10px 0 30px 0; border-top:1px solid #e7e7e7;}
+.binding .bd-msg h3{ font-size:18px; color:#555; line-height:39px;}
+.binding .bd-msg p{ font-size:14px; color:#555; line-height:28px;}
+/*右侧*/
+.bd-cc-r { float:left; margin-left:29px; width:755px; padding-bottom:3000px; margin-bottom:-3000px;}
+.bd-cc-r h3 { color:#555;}
+.bd-cc-r h3 span { padding-left:20px; font-size:14px;}
+.bd-cc-r h4 { padding:40px 0 25px;font-size:16px; color:#000; border-bottom:1px dashed #ddd;}
+.bd-cc-r h4 span { padding-left:20px; font-size:14px; color:#555;}
+.business-bind-list p.t1msg { line-height:77px; font-size:16px; color:#000;}
+.business-bind-list p.t1msg span { font-size:14px; color:#999;}
+
+.business-bind-list .item .tit{width: 160px;}
+.business-bind-list .item .inpbox{padding-left: 0;}
+.business-bind-list .item input.txt.w380{width: 380px;}
+.business-bind-list .item input.txt.w320{width: 320px;}
+.business-bind-list .item em.tips{margin-left: 5px;color:#999;}
+.business-bind-list p.item{padding-left: 120px;}
+.savebtn{display:block; width:120px; height: 40px; line-height: 40px; background: #F5A100; margin-left:100px; border:1px solid #F49B00; border-radius:5px; font-weight:bold; font-size:16px; text-align:center; color:#fff;}
+.savebtn:hover{background:#FF991F;}
+.disabled{background-position:-442px -853px}
+
+.cord{width:104px; height:34px; display:block; float:left; background:url(../images/cord.jpg) no-repeat; margin-left:5px; line-height:34px; text-align:center;}
+#cord{width:104px; height:34px; display:block; float:left; background:url(../images/cords.jpg) no-repeat; margin-left:5px;}
+.cordspan{display:block; color:#595959; width:130px; height:34px; text-align:center; line-height:34px; float:left;}
+.inpbox .icon-cord{background:url(../images/cordbg.jpg) no-repeat; background-position:50%;}
+
+.bd-btn-box {padding-top:20px; line-height:40px; font-size:14px; border-top:1px solid #ddd;}
+.bd-btn-box a.up { color:#1f9cd8; font-size:14px;}
+.bd-btn-box a.up1 { color:#1f9cd8; font-size:14px;}
+.bd-btn-box a.up2 { color:#1f9cd8; font-size:14px;}
+.bd-btn-box p.tit span { color:#f20000;}
+.bd-btn-box p.tit em { float:right;}
+.bd-btn-box a.bd-btn { display:inline-block; margin-left:15px; padding:0 15px; text-align:center; font-size:18px; color:#fff; background:#f7a500; border:1px solid #e87d00; border-radius:5px; line-height:40px;}
+
+/*绑定列表*/
+.bind-table table thead tr{ line-height:30px; background:#f9f9f9; font-size:14px; color:#555;}
+.bind-table table thead tr th { text-align:center;}
+.bind-table table tbody tr td { padding:10px 0; text-align:center; font-size:14px; color:#555; border-bottom:1px solid #eff1f0;}
+.bind-table a.updata { padding-right:15px; background:url(../images/s-step-icon1.gif) no-repeat right center; color:#1f9cd8;}
+.bind-up { position:relative; padding:0 40px 50px 18px; border:1px solid #f06600;}
+.bind-up p.bind-up-p { margin-bottom:40px; line-height:59px; color:#000; font-size:16px; border-bottom:1px dashed #ddd; text-align:left;}
+.bind-up .item { margin-left:100px;}
+.bind-up i.icon-bd { display:block; position:absolute; top:-5px; right:50px; z-index:50; width:8px; height:5px; background:url(../images/img-business/icon-bind.gif) no-repeat;}
+
+.bind-add { position:relative; padding:0 40px 50px 18px; border:1px solid #f06600;}
+.bind-add p.bind-up-p { margin-bottom:40px; line-height:59px; color:#000; font-size:16px; border-bottom:1px dashed #ddd; text-align:left;}
+.bind-add .item { margin-left:100px;}
+#again_shop .item { margin-left:0;}
+.bind-add i.icon-bd { display:block; position:absolute; top:-5px; right:50px; z-index:50; width:8px; height:5px; background:url(../images/img-business/icon-bind.gif) no-repeat;}
+.bind-add i.icon-bdagain { display:block; position:absolute; top:-5px; left:50px; z-index:50; width:8px; height:5px; background:url(../images/img-business/icon-bind.gif) no-repeat;}
+.bind-add i.icon-bdclose { position:absolute; top:8px; right:20px; z-index:50; font-size:14px; color:#f06600; cursor:pointer;}
+
+.bind-again .item { margin-left:0;}
+i.del { cursor:pointer; color:#f06600; font-size:13px;}
+i.adddel { cursor:pointer; color:#f06600; font-size:13px;}
+
+
+/*new*/
+.copy-code { display:inline-block; margin-left:10px; padding:0 30px; line-height:35px; font-size:12px; color:#cd7300; border:1px solid #d2d2d2; border-radius:5px;}
+.copy-code1 { display:inline-block; margin-left:10px; padding:0 30px; line-height:35px; font-size:12px; color:#666; border:1px solid #d2d2d2; border-radius:5px;}
+.copy-code1.J_copytextok { color:#f00;}
+.copy-box { margin:0 0 20px 170px; line-height:40px; color:#333; font-size:14px;}
+.msg-box { padding-top:12px; padding-left:50px; border-top:1px dashed #ddd; color:#555; font-size:14px;}
+.msg-box p { line-height:42px;}

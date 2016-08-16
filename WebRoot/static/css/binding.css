@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+.c-blue { color:#1F9CD8;}
+p.addofficial {padding-left: 160px; width: 460px; padding-bottom:30px; line-height: 21px; margin-bottom:15px; font-size:14px; color:#999;}
+.pl10 { padding-left:10px;}
+.g-wrap { margin:0 auto; margin-bottom:20px; width:1000px; background:#fff;}
+.g-box { clear:both; overflow:hidden; width:998px; border:1px solid #e0e0e0; border-radius:5px;}
+/*bingding页面样式*/
+.g-item { clear:both; position:relative; margin-bottom:28px;}
+.g-item .inpox {display: inline-block;position: relative;zoom: 1;height: 30px;border: 1px solid #CCCCCC;padding-left: 32px;border-radius: 2px;vertical-align: middle;}
+
+.binding { padding:18px 30px;}
+.binding h2 { margin-bottom:30px; padding-bottom:20px; height:28px; border-bottom:1px solid #e7e7e7; color:#c53e43; font-size:28px; font-weight:bold;}
+.binding h2 span { padding-left:10px; font-size:14px; color:#333; font-weight:normal;}
+.binding .bd-cc { overflow:hidden; padding-bottom:100px;}
+/*左侧选项卡*/
+.binding .bd-cc .bd-cc-l { float:left; width:135px; height:100%; margin-bottom:-2000px; padding-bottom:2000px; padding-right:18px; border-right:1px solid #f06600;}
+.binding .bd-cc .bd-cc-l h3 { font-size:18px; color:#555;}
+.binding .bd-cc .bd-cc-l ul li { position:relative; height:50px; border-bottom:1px solid #eff1f0; color:#2e2e2e; line-height:50px;}
+.binding .bd-cc .bd-cc-l ul li input {vertical-align: middle;margin-right: 5px;}
+.binding .bd-cc .bd-cc-l ul li span { float:right; font-size:12px; color:#999;}
+.binding .bd-cc .bd-cc-l ul li a { color:#2e2e2e;}
+.binding .bd-cc .bd-cc-l ul li.active i { display:block;}
+.binding .bd-cc .bd-cc-l ul li i { display:none; position:absolute; z-index:10; top:21px; left:149px; width:5px; height:8px; background:url(../images/b-li-icon.png) no-repeat;}
+
+/*第一次绑定京东*/
+.binding .bd-cc .bd-cc-r { float:left; margin-left:29px; width:755px; padding-bottom:2000px; margin-bottom:-2000px;}
+.binding .bd-cc .bd-cc-r h3 {padding-bottom:25px; margin-bottom:20px; font-size:18px; color:#555; height:20px;  border-bottom:1px solid #ddd;}
+.binding .bd-cc .bd-cc-r h3 span{font-size:14px; margin-left:10px;}
+
+.binding .bd-cc .bd-cc-r .g-item .tit { float:left; width:130px; font-size:14px;color:#000;line-height:25px;}
+.binding .bd-cc .bd-cc-r .g-item .inp { float:left; margin-left:18px; line-height:24px;}
+.binding .bd-cc .bd-cc-r .g-item .inp input {float: left;padding: 0 5px; height:30px;line-height:30px;}
+.binding .bd-cc .bd-cc-r .g-item .inp input.txt { width:190px; border:1px solid #ccc; border-radius:1px;}
+.binding .bd-cc .bd-cc-r .g-item .inp select {float: left;padding-left:35px; font-size:12px; color:#2c2c2c; width:174px; height:30px;border:1px solid #ccc;line-height:30px; background:url(../images/b-vip-icon1.png) no-repeat 10px 6px;}
+.binding .bd-cc .bd-cc-r p.g-item {clear:both; overflow:hidden; position:relative; margin-bottom:28px; padding-left:150px;}
+.binding .bd-cc .binding-btn { display:block; overflow:hidden; width:118px; height:40px; background:#F7A000; line-height:40px; text-align:center; border:1px solid #EB7E00; border-radius:5px; color:#fff; font-size:18px; font-weight:bold;}
+
+/*绑定京东成功*/
+.binding .bd-cc .bd-cc-r .g-item1 { clear:both; height:33px; line-height:33px; position:relative; margin-bottom:18px;}
+.binding .bd-cc .bd-cc-r .g-item1 .tit { float:left; width:320px;text-align:right;font-size:14px;color:#000;line-height:25px;}
+.binding .bd-cc .bd-cc-r .g-item1 .inp { float:left; margin-left:18px; line-height:24px;}
+.binding .bd-cc .bd-cc-r .g-item1 .inp i.vipicon { float:left; display:block; margin:5px 9px 0 0;width:16px; height:16px; background:url(../images/b-vip-icon1.png) no-repeat;}
+.binding .bd-cc .bd-cc-r .g-item1 .inp i.vipicon1 { float:left; display:block; margin:5px 9px 0 0;width:16px; height:16px; background:url(../images/taobao-icon.png) no-repeat;}
+.binding .bd-cc .bd-cc-r .g-item1 .inp-txt-green { color:#38ca11;}
+.binding .bd-cc .bd-cc-r .g-item1 .inp-txt-red { color:#f50000;}
+.binding .bd-cc .bd-cc-r .g-item1 .inp-txt-orange { color:#f07910;}
+
+/*淘宝没有绑定银行卡*/
+.binding .bd-cc .bd-cc-r .g-item1 p.txt { text-align:center; color:#333; font-size:18px; font-weight:bold; line-height:50px;}
+.binding .bd-cc .bd-cc-r .g-item1 p.colorblue { color:#1691e7;}
+
+/*淘宝绑定买号提示样式*/
+.binding .bd-cc .bd-cc-r .cc-r-msg { clear:both; margin-bottom:45px; padding-bottom:20px; border-bottom:1px dashed #ddd;}
+.binding .bd-cc .bd-cc-r .cc-r-msg p { font-size:14px; color:#333;}
+.binding .bd-cc .bd-cc-r .cc-r-msg p span { font-size:17px; font-weight:600;}
+.binding .bd-cc .bd-cc-r .cc-r-msg .bbox { clear:both; position:relative; padding-left:92px; font-size:14px; color:#777; line-height:40px;}
+.binding .bd-cc .bd-cc-r .cc-r-msg .bbox .zfbminimg { position:absolute; z-index:10; top:5px; left:220px; width:186px; height:26px;}
+.binding .bd-cc .bd-cc-r .cc-r-msg .bbox .zfbminimg a { float:right; height:26px; line-height:26px; font-size:14px; color:#999;}
+.binding .bd-cc .bd-cc-r .cc-r-msg .bbox .zfbbigimg { position:relative; z-index:50; border:5px solid #F2F2F2; width:600px; height:400px; background:#fff; overflow:hidden; left:-200px; top:-100px;}
+
+/*淘宝开始绑定买号*/
+.important{overflow:hidden; color:#333;}
+.tbBox h5{font-size:16px; margin-bottom:10px; display:block; font-weight:bold; color:#333;}
+.important p{font-size:14px; line-height:20px;}
+.binding .bd-cc .bd-cc-r .g-item .hint { clear:both; overflow:hidden; padding-left:150px; font-size:12px; color:#999; font-weight:bold; line-height:40px;}
+.binding .f-mb15 { margin-bottom:15px;}
+.binding .bd-cc .bg-btn { background-position:0 -46px;}
+#from1{margin-top:30px;}
+.zfb_info{color:#333; font-size:14px; overflow:hidden; margin-bottom:50px;}
+.zfb_info .zfbdiv{margin-top:20px; overflow:hidden;}
+.zfb_info .zfbdivs{margin-top:20px; overflow:hidden;}
+.zfb_info .inp{margin-left:18px; line-height:24px; float:left;}
+.zfb_info span{display:inline-block; line-height:28px; margin-left:20px; color:#999;}
+.zfb_info .inp span.error{display:inline-block; line-height:16px; margin-top:6px; color:#f00;}
+.zfb_info label{display:inline-block; width:130px; float:left; line-height:30px;}
+.zfb_info .zfbdiv input{border:1px solid #C4C4C4; border-radius:2px; height:30px; line-height:30px; padding:0 3px;}
+.zfbdivs .zfb-addofficial {clear:both; padding-left: 150px; width:560px; line-height: 21px; margin-bottom:15px; font-size:14px; color:#333;}
+.zfbdivs .zfb-addofficial span{color:#F10000; margin:0;}
+
+.zfb_img{position: absolute; padding-left:150px; color:#333; line-height:30px;}
+.zfb_img a{color:#00A7EB; margin-left:20px;}
+.zfb_img a:hover{ text-decoration:none;}
+.zfb_imgs{position:relative; z-index:999; border:5px solid #F2F2F2; width:740px; height:340px; left:-140px; overflow:hidden; background:#fff; top:-200px;}
+.zfb_imgs a{width:20px; height:20px; display:inline-block; float:right; color:#555;}
+
+.no_shenhe{margin:20px; font-size:14px; color:#333;}
+.no_shenhe div span{display:inline-block; float:left; color:#f00; margin-right:20px; line-height:35px;}
+.no_shenhe div a{display:inline-block; float:left; width:140px; height:35px; line-height:35px; text-align:center; background:#F49B00; color:#fff; font-weight:bold; border:1px solid #E87D00; border-radius:5px;}
+
+
+/* 绑定列表 */
+.bind_list{width:100%; overflow:hidden; margin:10px 0; font-size:14px; color:#555;}
+.bind_list th{border-bottom:1px dashed #ddd; line-height:50px; font-weight:normal; text-align:center;}
+.bind_list td{height:50px; text-align:center; line-height:50px;}
+.bind_list td .wwID{position:absolute; float:left; margin-top:-25px;}
+.bind_list td .wwID div{position:relative; width:500px; height:420px; border:5px solid #F2F2F2; border-radius:5px; background:#fff; z-index:999; overflow:hidden; padding:10px; top:-150px; left:100px; display:none;}
+.bind_list td .wwID div a{display:inline-block; width:15px; height:15px; overflow:hidden; line-height:15px; float:right;}
+.bind_list td .wwID span{display:inline-block; float:left; margin:0 10px 0 30px;}
+.bind_list td .wwID img{margin-top:10px; display:inline-block; float:left; cursor:pointer;}
+
+
+/*淘宝重新修改卡号*/
+.binding .bd-cc .bd-cc-r .cc-r-again { clear:both; overflow:hidden; margin:-20px 0 40px; padding-bottom:20px;border-bottom:1px dashed #ddd;}
+.binding .bd-cc .bd-cc-r .cc-r-again h4 { font-size:14px; color:#333; line-height:29px;}
+.binding .bd-cc .bd-cc-r .cc-r-again p { color:#f30000; line-height:29px; font-size:13px;}
+.binding .bd-cc .bd-cc-r .revise { display:block; font-size:20px; color:#00a7ea; padding:20px 0 0 280px;}
+
+/*底部注意事项*/
+.binding .bd-msg { margin-top:80px; padding:10px 0 30px 0; border-top:1px solid #e7e7e7;}
+.binding .bd-msg h3{ font-size:18px; color:#555; line-height:39px;}
+.binding .bd-msg p{ font-size:14px; color:#555; line-height:28px;}
+.binding .bd-msg p span { display:inline-block; width:17px; height:15px; background:url(../images/b-icon.png) no-repeat right top;}

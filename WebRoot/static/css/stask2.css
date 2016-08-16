@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.s-wrap { margin:0 auto; width:998px; border:1px solid #e0e0e0; overflow:hidden; background:#fff; margin-bottom:20px;}
+.mr20 { margin-right:20px;}
+.c-blue { color:#00a6ed;}
+#step-3 { font-size:14px;}
+/*头部*/
+.stit { padding-left:32px; height:108px; border-bottom:1px solid #eff1f0;}
+.stit h2 { float:left; padding:36px 60px 40px 0; width:118px;}
+.stit .Process { float:left; width:680px; padding-top:60px;}
+/*体验商家提示信息*/
+.smsg { clear:both; border-bottom:1px solid #eee;}
+.smsg p { color:#555; font-size:14px; line-height:84px; text-align:center;}
+.smsg p span { padding:0 3px; color:#ee0000; font-weight:600;}
+.smsgend { clear:both; padding:50px 0 100px 0;}
+.smsgend p { color:#555;font-size:18px; line-height:50px; text-align:center;}
+.smsgend p span { padding:0 3px; color:#ee0000;}
+.smsgend p a{ font-size:23px; text-decoration:none; color:#00b2dc;}
+
+/*任务标题*/
+.stitle {padding:0 40px 0 29px; height:80px; line-height:80px;}
+.stitle h3 { float:left; font-size:18px; font-weight:bold; color:#555;}
+.stitle .tit-choose { float:right; font-size:14px;}
+.stitle .tit-choose span { padding: 0 8px; color:#ef5a1f;}
+/*内容区*/
+.scontent { clear:both;}
+.step { padding:0 40px 0 28px; }
+.step.stepcur { border:3px solid #f06600;}
+.step .step1-title { height:60px; line-height:60px; font-size:18px; font-weight:bold; color:#555;}
+.step .step-writ { display:none;}
+.step.stepcur .step-writ { display:block;}
+.step .step-item { margin-bottom:16px;}
+.step .step-writ .step-writ-box { margin-bottom:22px; border-bottom:1px dashed #ddd;}
+.scontent input.text {padding:3px 6px; border:1px solid #c5c5c5;border-radius:2px;height:24px;}
+.scontent p.p1 { padding:13px 0 0 129px; height:13px; color:#999;}
+.scontent .w285 { width:285px;}
+.scontent .w540 { width:540px;}
+.scontent .w110 { width:110px;}
+.scontent .w148 { width:148px;}
+.scontent .w56 { margin-right:14px; width:56px;}
+.scontent .w60 { margin:0 10px; width:60px;}
+.step .step-writ .step-writ-box strong { display:inline-block; padding-left:18px; width:110px; font-size:14px; font-weight:normal;}
+.step .step-writ .step-writ-box span{ padding:0 20px 0 10px; color:#f20000;}
+.step .step-writ .step-writ-box i{ font-size:13px; color:#999;}
+.step .step-writ .step-writ-box1 { margin-bottom:35px;}
+.step .step-writ .step-writ-box1 strong { display:inline-block; padding-left:18px; width:70px; text-align:right; font-size:14px; font-weight:normal;}
+.step .step-writ .step-writ-box1 i{font-size:13px; color:#999;}
+.step .step-writ .step-writ-box1 span{ padding:0 20px 0 10px; color:#f20000;}
+.step .step-writ .step-writ-box1 em { font-size:14px; color:#f20000;}
+.scontent .checkout-btnp { overflow: hidden;padding: 10px 0 30px; height: 35px;}
+.scontent .checkout-btn {overflow: hidden;display:block;float: left; width:129px;height:35px; font-size:0;line-height:0; text-indent:-5000px; background:url(../images/s-checkoutbtn.png) no-repeat;}
+/*_展示_*/
+.step .step-show { display:block; margin-bottom:10px;}
+.step .step-show p { padding-left:20px; line-height:36px; color:#555; font-size:14px;}
+.step .step-show p b { font-weight:normal;}
+.step .step-show p span.span1 { padding-left:10px;}
+.step .step-show p span.span2 { display:inline-block; width:260px;}
+.step .step-show p span.span2 em { padding:0 15px;}
+.step .step-show p span.span3 { display:inline-block; width:225px;}
+.step .step-show p span.span3 em { padding-left:5px; color:#f00000;}
+.step .step-show p span.span4 { display:inline-block; width:170px;}
+.step .step-show p span.span4 em { color:#f00000;}
+.step .step-show span.spanred {color:#f00000;}
+.step a.alter { float:right; display:inline-block; padding-right:15px; color:#00a5ec; background:url(../images/s-step-icon1.gif) no-repeat right center;}
+.step a.alter:hover { color:#555;}
+.step a.ahref { color:#00a5ec;}
+.stepcss2 .step-writ ul { display:block; margin-top:25px; padding:10px 0; border-top:1px dashed #ddd;}
+.stepcss2 .step-writ ul li { display:block; line-height:30px; height:30px; width:100%;}
+.stepcss2 .step-writ ul li span { color:#f40000;}
+.stepcss2 .step-writ ul li span.pl-25 { padding-left:10px;}
+/*跳转按钮*/
+.sbtn-box { padding:36px 0; text-align:center; color:#999;}
+.sbtn-box a.s-prev { display:inline-block; padding-left:28px; margin-right:40px; font-size:22px; height:60px; line-height:60px; text-decoration:none; cursor:pointer; background:url(../images/a-prev.gif) no-repeat left center; color:#f06600;}
+.sbtn-box a.s-next { display:inline-block; padding-right:28px; margin-right:15px; font-size:22px; height:60px; line-height:60px; text-decoration:none; cursor:pointer; background:url(../images/a-next.gif) no-repeat right center; color:#f06600;}
+.sbtn-box .s-next.disabled { color:#999;background:url(../images/a-next1.gif) no-repeat right center;}
+
+/*发布流程*/
+.Process{width: 900px;margin:0px auto;padding: 40px 50px 12px;overflow: hidden;position: relative;}
+.Process ul{position: relative;zoom:1;height: 10px;line-height: 10px;}
+.Process ul li{float: left;background: url(../images/Processdis.png) repeat-x;height: 10px;position: relative;}
+.Process ul li.Processlast{position: absolute;left: 100%;background: none;top: 0;}
+.Process ul li em{background: url(../images/Process.png) no-repeat -85px 0;width: 34px;height: 34px;font-size: 14px;line-height: 34px;display: block;position: absolute;left: -17px;top:-12px;text-align: center;}
+.Process ul li span{position: absolute;left: -50%;height: 40px;font-size: 14px;line-height: 40px;top:-46px;text-align: center;width: 100%;display: block;overflow: hidden;}
+.Process ul li.cur{background: url(../images/Processpass.png) repeat-x}
+.Process ul li em.Processyes{color: #fff;background-position: 0px 0px;}
+.Process ul li em.Processing{color: #fff;background-position: -36px 0px;}
+.Process ul li strong{color: #999;position: absolute;left: 0;top:10px;height: 24px;line-height: 24px;width: 100%;text-align: center;}
+.Process ul li bottoms,.Process ul li b{color: #999;position: absolute;left: -50px;top:24px;height: 24px;line-height: 24px;width: 100%; font-style:normal; font-weight:normal;}
+.Process ul li i{display: none;width: 13px;height: 7px;position: absolute;top: 50px;left: 50%;margin-left: -7px;background: url(../images/makes-task/makes-task-angle.png) no-repeat -18px -3px ;
+}
+.Process ul li em.Processing i{display: block;}
+.unProcess{padding: 12px 50px 40px;}
+.unProcess ul li span{top:auto;bottom: -46px;}

@@ -1,0 +1,133 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*试用进展*/
+
+.pln { padding-left:0!important;}
+.Mline ul { position:relative;}
+.Mline ul li { position:relative; background:url(../images/new/Mli.gif) repeat-y;}
+.Mline ul li.cur { position:relative; background:url(../images/new/Micon2.gif) repeat-y;}
+.Mline ul li em.emsy { width:7px; height:7px; background:url(../images/new/Micon1.gif) no-repeat; display:block; position:absolute; left:-3px; top:-3px;}
+.Mline ul li em.emdis { width:7px; height:7px; background:url(../images/new/Micon3.gif) no-repeat; display:block; position:absolute; left:-3px; top:-3px;}
+.Mline ul li em.emby { width:15px; height:15px; background:url(../images/new/Micon4.gif) no-repeat; display:block; position:absolute; left:-7px; top:-7px;}
+
+.Mline .h41 { height:41px;}
+.Mline .h61 { height:61px;}
+.mday {float:left; margin-right:10px; margin-top:10px; color:#999;}
+.m1_line {width:5px; float:left; margin-top:16px;}
+
+.pl24 { padding-left:24px; color:#999;}
+i.type_day {position:absolute; left:-50px;top: -8px;font-size: 14px;}
+i.type_tit {position:absolute; left: 10px; width:100px;top: -8px;font-size: 14px; z-index:11;}
+i.type_time {position:absolute; z-index:10; left: 160px; width:140px;top: -8px;font-size: 14px;text-align:center;}
+.type_cc {position:absolute; padding-left:430px; width:430px; left:10px; font-size: 14px;border-bottom:1px solid #ddd; top:-8px; height:40px; z-index:5;}
+
+.pr span { width:300px; font-size:14px; display:inline-block; overflow: hidden; text-overflow:ellipsis; white-space:nowrap; -o-text-overflow:ellipsis;}
+
+
+
+
+
+
+.cc_box { margin:0 29px;}
+.cc_tit { height:43px; line-height:43px; border-top:1px solid #ddd; border-bottom:1px dashed #ddd;}
+.cc_tit span { display:inline-block; line-height:43px; font-size:14px; color:#555;}
+.cc_tit span.span1 { padding-left:28px;}
+.cc_tit span.span2 { padding-left:173px;}
+.cc_tit span.span3 { padding-left:350px;}
+
+
+
+
+
+
+.J_copytextok {color: red!important;}
+.c-red { color:#f91b1b;}
+.c-blue { color:#00a6ed;}
+.c-yellow { color:#ea6900;}
+.pl33 { padding-left:33px;}
+.f-font-w { font-weight:bold;}
+.mb35 { margin-bottom:35px!important;}
+i.play_small { margin-top:3px; margin-right:3px; width:16px; height:16px; display:inline-block; vertical-align:text-top; background:url(../images/plat_small.png) no-repeat;}
+i.play_taobao { background-position:-216px 0;}
+i.play_tmall { background-position:-43px 0;}
+.s-wrap { margin:0 auto; margin-bottom:7px; width:998px; border:1px solid #e0e0e0; overflow:hidden; background:#fff;}
+/*任务进度条*/
+.Process_new{float: left;  width: 680px;margin:0px auto;padding: 60px 50px 12px;overflow: hidden;position: relative;}
+.Process_new ul{position: relative;zoom:1;height: 10px;line-height: 10px;}
+.Process_new ul li{float: left;background: url(../images/Processdis.png) repeat-x;height: 10px;position: relative;}
+.Process_new ul li.Processlast{position: absolute;left: 100%;background: none;top: 0;}
+.Process_new ul li em{background: url(../images/Process.png) no-repeat -85px 0;width: 34px;height: 34px;font-size: 14px;line-height: 34px;display: block;position: absolute;right: -17px;top:-12px;text-align: center; z-index:10;}
+.Process_new ul li span{position: absolute;left: 50%;height: 40px;font-size: 14px;line-height: 40px;top:-46px;text-align: center;width: 100%;display: block;overflow: hidden;}
+.Process_new ul li.cur{background: url(../images/Processpass.png) repeat-x}
+.Process_new ul li em.Processyes{color: #fff;background-position: 0px 0px;}
+.Process_new ul li em.Processing{color: #fff;background-position: -36px 0px;}
+.Process_new ul li strong{color: #999;position: absolute;left: 0;top:10px;height: 24px;line-height: 24px;width: 100%;text-align: center;}
+.Process_new ul li bottoms,.Process ul li b{color: #999;position: absolute;left:-50px;top:24px;height: 24px;line-height: 24px;width: 100%; font-style:normal; font-weight:normal;}
+.Process_new ul li i{display: none;width: 13px;height: 7px;position: absolute;top: 50px;left: 50%;margin-left: -7px;background: url(../images/makes-task/makes-task-angle.png) no-repeat -18px -3px ;}
+.Process_new ul li span.c-yellow { color:#ea6900;}
+.Process_new ul li span.c-green { color:#01d155;}
+.Process_new ul li em.Processing i{display: block;}
+.unProcess{padding: 12px 50px 40px;}
+.unProcess ul li span{top:auto;bottom:-46px;}
+/*第一模块*/
+.stit { padding-left:32px; height:108px; border-bottom:1px solid #eff1f0;}
+.stit h2 { float:left; padding:36px 60px 40px 0; width:118px;}
+.stit .Process { float:left; width:680px; padding-top:60px;}
+.scontent { margin-top:20px; clear:both;}
+.task-l { float:left; margin-bottom:26px; padding:0 25px 0 31px; border-right:1px solid #e0e0e0;}
+.task-l p { line-height:29px; font-size:14px; color:#555;}
+.task-l p.p1 { padding-top:22px;}
+.task-l p.p2 {padding-bottom:15px; border-bottom:1px dashed #ddd;}
+.task-l p.p3 { padding-top:15px;}
+.task-r { float:left;padding:66px 70px 0 77px;}
+.task-r h4 { padding-bottom:25px; font-weight:600; font-size:20px; color:#555;}
+.task-r p {font-size:14px; color:#555;}
+.task-r .tt { margin-top:23px; padding-left:13px; background:#fffedf; border:1px solid #fadfaf;}
+.task-r .tt h5 { line-height:35px; color:#e84700; font-size:14px;}
+.task-r .tt p { padding:0 0 10px 15px; color:#e84700; font-size:14px;}
+/*第二、三模块*/
+.stit23 { padding-left:29px; font-size:18px; color:#555; line-height:57px;}
+.table-box { margin:0 29px;}
+.table-box table { font-size:14px; color:#000;}
+.table-box table thead tr { line-height:43px; border-top:1px #ddd solid;}
+.table-box table tbody tr { line-height:60px; border-top:1px solid #ddd;}
+.table-box table tbody tr p { line-height:24px;}
+.table-box-but {float:right; padding-right:30px; font-size:14px; line-height:60px;}
+.table-box-but a.complain { padding-right:20px; color:#00a7e9;}
+.table-box-but a.blacklist{ color:#00a7e9;}
+.table-box table thead tr.trbg{ background:#f9f9f9;}/*第三模块试用商品trbg更改*/
+.icon-succ { margin-bottom:5px; padding-left:24px; background:url(../images/img-business/icon-g.gif) left center no-repeat;}
+.icon-time {margin:5px 0; padding-left:24px; background:url(../images/img-business/icon-timer.gif) left center no-repeat;}
+.icon_time { padding-left:24px; background:url(../images/img-business/icon-timer.gif) left center no-repeat;}
+.mtb5 { margin:5px 0;}
+
+
+/*
+* 试用详情页面trade_info/css	0309
+*/
+
+.tinfo { margin:0 29px; height:66px; border-bottom:1px solid #ddd;}
+.tinfo h3 { color:#c53e43; font-weight:bold; line-height:66px; font-size:28px;}
+.tinfo h3 span { padding-left:12px; font-size:13px; color:#555; font-weight:normal;}
+.taskinfo-l { float:left; margin-bottom:26px; padding:0 25px 0 31px; border-right:1px solid #e0e0e0;}
+.taskinfo-l p { padding-left:10px; line-height:25px; font-size:14px; color:#555;}
+.taskinfo-l a.open { padding:0 13px 0 28px; color:#00a7e9; background:url(../images/img-business/yhk-icon.gif) right center no-repeat;}
+.taskinfo-l-box1 {  padding:13px 0 10px 0; border-bottom:1px solid #ddd;}
+.taskinfo-l-box1 p { color:#000;}
+.taskinfo-l-box2 { margin-bottom:8px; padding:13px 0 10px 0; border-bottom:1px solid #ddd;}
+.taskinfo-r { float:left;padding:120px 0 0 200px; text-align:center;}
+.taskinfo-r h4 { padding-bottom:25px; font-weight:600; font-size:20px; color:#555;}
+.taskinfo-r p { line-height:35px;font-size:14px; color:#555;}
+.taskinfo-r a.task-remove { display:inline-block; margin-left:10px; padding:0 10px; color:#2a2a2a; border:1px solid #c0c0c0; border-radius:3px; line-height:23px; text-decoration:none; background:#f6f6f6;}
+.table-box2 { margin:0 29px;}
+.table-box2 table { font-size:14px; color:#000;}
+.table-box2 table thead tr { line-height:30px; background:#f9f9f9;}
+.table-box2 table thead tr th { text-align:center;}
+.table-box2 table tbody tr { line-height:66px; border-bottom:1px solid #ddd; background:#fff;}
+.table-box2 table tbody tr td { text-align:center;}
+.table-box2 table tbody tr p { line-height:24px;}
+.table-box2-but {float:right; padding-right:30px; font-size:14px; line-height:30px;}
+.table-box3-but {float:right; padding-right:30px; font-size:14px; line-height:66px;}
+.table-box3-but strong { font-size:16px; padding-right:15px;}
+.table-ul-tit { padding:10px 0;}
+.table-ul-tit li { line-height:30px;}
