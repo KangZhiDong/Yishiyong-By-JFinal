@@ -20,4 +20,5 @@ yishiyong
 * 商家按照步骤发布试用产品任务
 * 商家查看试客试用商品任务情况
 
-#### 截图
+#### 网站截图
+![](https://raw.githubusercontent.com/coolcooldee/yishiyong/master/WebRoot/demoimages/申请试用1.png)
