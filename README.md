@@ -21,4 +21,13 @@ yishiyong
 * 商家查看试客试用商品任务情况
 
 #### 网站截图
+![](https://raw.githubusercontent.com/coolcooldee/yishiyong/master/WebRoot/demoimages/发布任务3.png)
+![](https://raw.githubusercontent.com/coolcooldee/yishiyong/master/WebRoot/demoimages/个人中心1.png)
+![](https://raw.githubusercontent.com/coolcooldee/yishiyong/master/WebRoot/demoimages/商家个人中心充值页面.png)
+![](https://raw.githubusercontent.com/coolcooldee/yishiyong/master/WebRoot/demoimages/商家绑定店铺.png)
 ![](https://raw.githubusercontent.com/coolcooldee/yishiyong/master/WebRoot/demoimages/申请试用1.png)
+![](https://raw.githubusercontent.com/coolcooldee/yishiyong/master/WebRoot/demoimages/申请试用第3天1.png)
+![](https://raw.githubusercontent.com/coolcooldee/yishiyong/master/WebRoot/demoimages/绑定店铺.png)
+![](https://raw.githubusercontent.com/coolcooldee/yishiyong/master/WebRoot/demoimages/试客个人中心1.png)
+![](https://raw.githubusercontent.com/coolcooldee/yishiyong/master/WebRoot/demoimages/试客绑定买号.png)
+![](https://raw.githubusercontent.com/coolcooldee/yishiyong/master/WebRoot/demoimages/试用进展-查看详情1.png)
