@@ -24,13 +24,13 @@ yishiyong
 ---
 
 ####项目结构:
-├── .git
-├── .gitignore
-├── docs
-├── logs
-├── README.md
-├── src
-│   ├── com
+├── .git 
+├── .gitignore 
+├── docs 
+├── logs 
+├── README.md 
+├── src 
+│   ├── com 
 │   │   ├── yishiyong
 │   │   │   ├── controller
 │   │   │   ├── CoreJFinalConfig.java
