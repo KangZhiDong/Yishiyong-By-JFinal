@@ -24,54 +24,54 @@ yishiyong
 ---
 
 ####项目结构:
-├── .git 
-├── .gitignore 
-├── docs 
-├── logs 
-├── README.md 
-├── src 
-│   ├── com 
-│   │   ├── yishiyong
-│   │   │   ├── controller
-│   │   │   ├── CoreJFinalConfig.java
-│   │   │   ├── model
-│   │   │   │   ├── Business.java
-│   │   │   │   ├── Buyer.java
-│   │   │   │   ├── Member.java
-│   │   │   │   ├── Order.java
-│   │   │   │   ├── support
-│   │   │   │   ├── Task.java
-│   │   │   │   ├── TaskInstance.java
-│   │   │   ├── MyJFinalApp.java
-│   │   │   ├── service
-│   │   │   ├── support
-│   ├── config.properties
-│   ├── log4j.properties
-├── WebRoot
-│   ├── business
-│   ├── buyer
-│   ├── buyer_apply
-│   ├── buyer_pass
-│   ├── include
-│   ├── index.jsp
-│   ├── login.jsp
-│   ├── member
-│   ├── member.jsp
-│   ├── register
-│   ├── static
-│   │   ├── css
-│   │   ├── images
-│   │   ├── js
-│   │   ├── script
-│   ├── task_info
-│   ├── WEB-INF
-│   │   ├── classes
-│   │   │   ├── config.properties
-│   │   │   ├── log4j.properties
-│   │   ├── lib
-│   │   ├── myfunctions.tld
-│   │   ├── web.xml
-├── yishiyong.iml
+    ├── .git 
+    ├── .gitignore 
+    ├── docs 
+    ├── logs 
+    ├── README.md 
+    ├── src 
+    │   ├── com 
+    │   │   ├── yishiyong
+    │   │   │   ├── controller
+    │   │   │   ├── CoreJFinalConfig.java
+    │   │   │   ├── model
+    │   │   │   │   ├── Business.java
+    │   │   │   │   ├── Buyer.java
+    │   │   │   │   ├── Member.java
+    │   │   │   │   ├── Order.java
+    │   │   │   │   ├── support
+    │   │   │   │   ├── Task.java
+    │   │   │   │   ├── TaskInstance.java
+    │   │   │   ├── MyJFinalApp.java
+    │   │   │   ├── service
+    │   │   │   ├── support
+    │   ├── config.properties
+    │   ├── log4j.properties
+    ├── WebRoot
+    │   ├── business
+    │   ├── buyer
+    │   ├── buyer_apply
+    │   ├── buyer_pass
+    │   ├── include
+    │   ├── index.jsp
+    │   ├── login.jsp
+    │   ├── member
+    │   ├── member.jsp
+    │   ├── register
+    │   ├── static
+    │   │   ├── css
+    │   │   ├── images
+    │   │   ├── js
+    │   │   ├── script
+    │   ├── task_info
+    │   ├── WEB-INF
+    │   │   ├── classes
+    │   │   │   ├── config.properties
+    │   │   │   ├── log4j.properties
+    │   │   ├── lib
+    │   │   ├── myfunctions.tld
+    │   │   ├── web.xml
+    ├── yishiyong.iml
 
 ---
 
